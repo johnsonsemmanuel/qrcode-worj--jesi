@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+.component{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.component img{
+    border-radius: 25px;
+}
+
+.component h2{
+    padding: 10px;
+    text-align: center;
+}
+.component p{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding: 15px;
+}
